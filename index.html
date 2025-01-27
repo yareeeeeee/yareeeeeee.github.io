@@ -12,6 +12,10 @@
             background: radial-gradient(circle, #1c1c4e, #000);
             overflow: hidden;
             color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
 
         .container {
@@ -19,7 +23,6 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
             text-align: center;
             position: relative;
         }
@@ -27,12 +30,12 @@
         h1 {
             font-size: 4.5rem;
             font-family: 'Dancing Script', cursive;
-            margin-bottom: 2rem;
+            margin-bottom: 1rem; /* Mengurangi margin-bottom */
+            margin-top: -10rem; /* Menyesuaikan agar lebih ke atas */
             animation: fadeIn 3s ease-in-out;
             color: #ff77ff;
             text-shadow: 0 0 15px rgba(255, 119, 255, 0.6), 0 0 30px rgba(255, 119, 255, 0.6);
             letter-spacing: 3px;
-            position: relative;
             z-index: 2;
             line-height: 1.2;
         }
@@ -105,7 +108,7 @@
             animation: loveAnimation 4s ease-in-out infinite;
             transform: translateX(-50%);
             left: 50%;
-            top: 85%;
+            top: 125%; /* Memindahkan lebih ke bawah */
             text-shadow: 0 0 25px rgba(255, 119, 255, 0.8), 0 0 50px rgba(255, 119, 255, 0.5);
         }
 
@@ -142,7 +145,8 @@
         }
 
         .modal-body {
-            font-size: 1.2rem;
+            font-family: 'Times New Roman', serif;
+            font-size: 1rem; /* Ukuran font lebih kecil */
             font-weight: 400;
             color: #333;
             text-align: center;
@@ -203,7 +207,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    Semoga kita bisa terus berjalan bersama, melewati segala hal yang datang dalam hidup. Aku berharap kamu selalu merasa dihargai dan dicintai, tidak hanya olehku, tapi juga oleh dirimu sendiri. Aku ingin selalu mendukungmu, dalam setiap langkah dan pilihan hidupmu, dan aku berharap kita bisa saling menguatkan satu sama lain, apapun yang terjadi. Bersamamu, aku merasa lebih baik, dan aku hanya ingin membuatmu bahagia
+                    Moon, aku cuma pengen kita terus bareng, jalanin hidup ini bareng-bareng. Semoga kamu selalu ngerasa dihargai dan dicintai, nggak cuma dari aku, tapi juga dari diri kamu sendiri. Aku bakal selalu ada buat dukung kamu, apapun keputusan atau langkah yang kamu ambil. Aku harap kita bisa saling kuatkan satu sama lain, nggak peduli apa yang terjadi. Karena, setiap kali aku sama kamu, rasanya jadi lebih baik, dan yang aku pengen cuma bikin kamu bahagia    
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-dismiss="modal">Love You</button>
